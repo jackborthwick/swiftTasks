@@ -9,6 +9,7 @@
 import Foundation
 import CoreData
 
+@objc(Tasks)
 class Tasks: NSManagedObject {
 
     @NSManaged var taskName: String
